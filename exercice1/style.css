@@ -44,4 +44,24 @@
     position: absolute;
     left: 500px;
     top: 25px;
+
+    animation-name: bar;
+    animation-duration: 5s;
+    animation-iteration-count: 6;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bar {
+
+    from {
+        background : blue;
+        width: 85px;
+        height: 85px;
+    }
+
+    to {
+        background-color: lightcoral;
+        width: 100px;
+        height: 100px;
+    }
 }

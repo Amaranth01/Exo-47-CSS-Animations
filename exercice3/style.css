@@ -9,5 +9,28 @@
 
 @keyframes exercice3 {
 
+    0% {
+        background-color: lightcoral;
+        left: 5%;
+        bottom: 5%;
+    }
 
+    25% {
+        left: 23%;
+    }
+
+    50% {
+        background-color: yellow;
+        left: 50%;
+    }
+
+    75% {
+        background-color: orange;
+        left: 75%;
+    }
+
+    100% {
+        left: 100%;
+        bottom: 100%;
+    }
 }
